@@ -1,0 +1,17 @@
+Ojo: solo funciona navegando en tor browser ya que si lo haces en otro navegador se te va a caer la pagina constantemente, lamentablemente github no me deja subir mas de 100 archivos ni tampoco un tar.gz comprimido por que pesa mas de 25mb asi que vayan a descargarlo a la pagina de tor browser para *linux*
+
+https://www.torproject.org/download/
+
+lo descomprimen en donde quieran y se meten a la primera carpeta por medio de la terminal y ponen en la terminal:
+
+./tor-browser_en-US
+
+deben de iniciarlo primero para que no les genere conflictos ya despues de eso ejecutan el archivo bash en otra terminal con:
+
+./IP_automatica.sh
+
+pero antes de eso van a darle permisos de ejecucion al archivo.sh con:
+
+chmod 777 -R IP_automatica.sh
+
+y listo.
